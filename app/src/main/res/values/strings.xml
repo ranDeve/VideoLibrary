@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Video Library App</string>
+    <string name="mainappTitleTv"> <u>My Video Library</u> </string>
+    <string name="ok_btn_addedit">OK</string>
+    <string name="cancel_btn_addedit">Cancel</string>
+    <string name="subject_title_acaddedit">Subject:</string>
+    <string name="body_title_acaddedit">Body:</string>
+    <string name="url_title_acaddedit">URL</string>
+    <string name="btn_show_acaddedit">Show</string>
+    <string name="optionsmenu_exit">Exit</string>
+    <string name="optionsmenu_deleteall">Delete All Movies</string>
+    <string name="addManually_conmenu">Add manually</string>
+    <string name="addinternet_conmenu">Add from internet</string>
+    <string name="edit_listmenu">Edit Movie</string>
+    <string name="deletemovie">Delete Movie</string>
+    <string name="internet_search_titletv">Search</string>
+    <string name="go_btn_internetac">Go</string>
+    <string name="cancel_btn_internetac">Cancel</string>
+    <string name="internetac_searchhint" />
+    <string name="internetac_search_hint">Enter Movie Title...</string>
+</resources>

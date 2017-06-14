@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ran.videolibraryapp.MainActivity"
+    android:orientation="vertical"
+    android:weightSum="13"
+    android:layoutDirection="ltr"
+    android:background="@drawable/bckg">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:weightSum="8">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/filmanim"
+            android:id="@+id/rollingFilmImg"
+            android:layout_weight="1"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:text="@string/mainappTitleTv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/mainTitleTV"
+            android:textSize="30sp"
+            android:gravity="left|center"
+            android:layout_weight="7"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:background="@drawable/layout_bg"
+        android:padding="4dp">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/moviesLV" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:srcCompat="@drawable/adding"
+        android:id="@+id/addMovieBtnMain"
+        android:layout_weight="2" />
+
+</LinearLayout>
